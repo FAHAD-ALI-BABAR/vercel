@@ -10,8 +10,4 @@ app.use("/",(req,res,next)=>{
    res.send("<h1>fahad</h1>")
     
 })
-
-app.listen(4500,()=>{
-    console.log("server is running on port 4000");
-    
-})
+module.exports=app;
